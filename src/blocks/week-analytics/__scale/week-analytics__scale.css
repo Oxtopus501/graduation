@@ -1,0 +1,8 @@
+.week-analytics__scale {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    max-width: calc(100% - 104px);
+    margin-left: 104px;
+    padding: 0;
+}

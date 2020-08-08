@@ -1,0 +1,7 @@
+.slider__control_direction_right {
+    right: -40px;
+    background-image: url(../../../../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: 52% 50%;
+    background-color:  #1A1B22;
+}

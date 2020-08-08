@@ -1,0 +1,22 @@
+@import url(./__text-content/history__text-content.css);
+@import url(./__title/history__title.css);
+@import url(./__link/history__link.css);
+@import url(./__button/history__button.css);
+
+.history {
+    background: #F5F6F7;
+    padding: 80px 0 72px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1279px) {
+    .history {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .history {
+        padding: 32px 0;
+    }
+}

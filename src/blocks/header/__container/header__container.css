@@ -1,0 +1,13 @@
+.header__container {
+    align-items: center;
+    color: #fff;
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0 auto;
+    /*max-width: 1184px;*/
+    position: relative;
+}
+
+
+

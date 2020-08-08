@@ -1,0 +1,6 @@
+.not-found__icon {
+    height: 96px;
+    width: 96px;
+    background: url(../../../images/not-found.svg);
+    margin: 0 auto;
+}

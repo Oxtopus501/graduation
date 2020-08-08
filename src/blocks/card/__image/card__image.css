@@ -1,0 +1,19 @@
+.card__image {
+    height: 272px;
+    width: 100%;
+    background: url(../../../images/card-background.jpg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media screen and (max-width: 998px) {
+    .card__image {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card__image {
+        height: 196px;
+    }
+}

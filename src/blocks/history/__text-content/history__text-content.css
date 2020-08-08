@@ -1,0 +1,18 @@
+.history__text-content {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1279px) {
+    .history__text-content {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .history__text-content {
+        margin-bottom: 16px;
+    }
+}

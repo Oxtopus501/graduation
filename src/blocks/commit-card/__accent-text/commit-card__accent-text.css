@@ -1,0 +1,8 @@
+.commit-card__accent-text {
+    background: #F5F6F7;
+    border: 1px solid #D1D2D6;
+    box-sizing: border-box;
+    padding: 0 1px;
+    font-family: Source Sans Pro;
+    letter-spacing: 1px;
+}

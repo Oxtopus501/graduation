@@ -1,0 +1,26 @@
+.commit-card__author-name {
+    margin: 4px 0 2px;
+    font-family: Roboto Slab, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+    .commit-card__author-name {
+        margin: 0;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .commit-card__author-name {
+        font-size: 20px;
+        margin: 0;
+    }
+}

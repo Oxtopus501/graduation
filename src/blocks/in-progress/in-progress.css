@@ -1,0 +1,9 @@
+@import url(./__preloader/in-progress__preloader.css);
+@import url(./__text/in-progress__text.css);
+
+.in-progress {
+    background: #F5F6F7;
+    padding: 76px 0 80px;
+    color: #B6BCBF;
+    display: none;
+}

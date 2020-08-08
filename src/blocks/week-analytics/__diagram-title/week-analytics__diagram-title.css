@@ -1,0 +1,13 @@
+@import url(./_width/week-analytics__diagram-title_width_fixed.css);
+
+.week-analytics__diagram-title {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    margin-bottom: 0;
+}

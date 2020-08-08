@@ -1,0 +1,18 @@
+.limited-section {
+    /*max-width: 85.6%;*/
+    max-width: calc(100% - 160px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .limited-section {
+        max-width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .limited-section {
+        max-width: calc(100% - 32px);
+    }
+}
