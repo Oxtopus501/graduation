@@ -1,0 +1,16 @@
+.card__article {
+    height: 200px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 998px) {
+    .card__article {
+        height: 172px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card__article {
+        height: 156px;
+    }
+}

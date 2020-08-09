@@ -1,0 +1,39 @@
+.results__more-button {
+    background: #fff;
+    height: 64px;
+    width: 288px;
+    border-radius: 80px;
+    border: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.results__more-button:hover {
+    opacity: 0.9;
+}
+
+.results__more-button:focus {
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 998px) {
+    .results__more-button {
+        width: 240px;
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .results__more-button {
+        width: 288px;
+        height: 56px;
+    }
+}

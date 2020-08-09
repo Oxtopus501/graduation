@@ -1,0 +1,20 @@
+@import url(./__title/week-analytics__title.css);
+@import url(./__diagram/week-analytics__diagram.css);
+@import url(./__diag-row/week-analytics__diag-row.css);
+@import url(./__day/week-analytics__day.css);
+@import url(./__diagram-title/week-analytics__diagram-title.css);
+@import url(./__diagram-head/week-analytics__diagram-head.css);
+@import url(./__line/week-analytics__line.css);
+@import url(./__scale/week-analytics__scale.css);
+@import url(./__scale-item/week-analytics__scale-item.css);
+
+.week-analytics {
+    background: #F5F6F7;
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .week-analytics {
+        padding: 40px 0 28px;
+    }
+}

@@ -1,0 +1,17 @@
+.search__container {
+    max-width: 608px;
+    margin: 0 auto;
+    /*border: 2px solid #fff; */
+}
+
+@media screen and (max-width: 1279px) {
+    .search__container {
+        max-width: 452px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .search__container {
+        max-width: calc(100% - 32px);
+    }
+}

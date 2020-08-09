@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/limited-section/limited-section.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/week-analytics/week-analytics.css);

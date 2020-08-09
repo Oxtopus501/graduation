@@ -1,0 +1,28 @@
+.search__form {
+    max-width: 608px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #D1D2D6;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .search__form {
+        height: 56px;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .search__form {
+        height: 128px;
+        background: none;
+        backdrop-filter: none;
+        border: none;
+        flex-direction: column;
+    }
+}

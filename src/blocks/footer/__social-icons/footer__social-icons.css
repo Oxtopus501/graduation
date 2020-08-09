@@ -1,0 +1,17 @@
+.footer__social-icons {
+    display: flex;
+    max-width: 70px;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__social-icons {
+        margin-left: 46px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__social-icons {
+        align-self: flex-start;
+        margin-left: 0;
+    }
+}

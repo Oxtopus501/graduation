@@ -1,0 +1,47 @@
+{
+  "name": "graduation",
+  "version": "0.0.1",
+  "description": "Это учебный проект, созданный с целью закрепить знания вёрстки, повторить знакомое и изучить новое в JS, git и webpack, сформировать навыки работы с различными API и поиском информации.\r ## Версия\r На данный момент проект не имеет работоспособной версии, следите за обновлениями.\r ## Технологии\r В проекте использованы HTML, CSS, JavaScript, Webpack\r ## Запуск\r Для запуска проекта на вашем компьютере необходимо установить [node.js](https://nodejs.org/en/download/)\r - Клонируйте файлы из ветки develop\r - Инициализируйте npm в директории с проектом командой `npm init`\r - Установите необходимые npm пакеты введя команду `npm install`\r - Запустите сборку проекта на локальном сервере командой `npm run dev` или финальной версии (сохраняется в директории dist) командой `npm run build`",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oxtopus501/graduation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oxtopus501/graduation/issues"
+  },
+  "homepage": "https://github.com/Oxtopus501/graduation#readme",
+  "devDependencies": {
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.10.5",
+    "@babel/preset-env": "7.10.4",
+    "autoprefixer": "9.8.5",
+    "babel-loader": "8.1.0",
+    "cross-env": "7.0.2",
+    "css-loader": "3.6.0",
+    "cssnano": "4.1.10",
+    "file-loader": "6.0.0",
+    "gh-pages": "2.2.0",
+    "html-webpack-plugin": "4.3.0",
+    "image-webpack-loader": "6.0.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "postcss-loader": "3.0.0",
+    "style-loader": "1.2.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "core-js": "3.4.1"
+  }
+}

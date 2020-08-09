@@ -1,0 +1,20 @@
+.slider__dots {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 48px auto 0;
+    padding: 0;
+    max-width: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+    .slider__dots {
+        margin-top: 32px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slider__dots {
+        margin: 16px auto 24px;
+    }
+}

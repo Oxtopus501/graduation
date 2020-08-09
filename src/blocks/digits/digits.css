@@ -1,0 +1,23 @@
+@import url(./__breadcrumbs/digits__breadcrumbs.css);
+@import url(./__link/digits__link.css);
+@import url(./__text/digits__text.css);
+@import url(./__span-accent/digits__span-accent.css);
+@import url(./__title/digits__title.css);
+
+.digits {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 40px 0 80px;
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 1279px) {
+    .digits {
+        padding: 32px 0 34px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .digits {
+        padding: 16px 0 24px;
+    }
+}

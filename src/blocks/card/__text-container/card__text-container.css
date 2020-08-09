@@ -1,0 +1,15 @@
+.card__text-container {
+    padding: 20px 24px 24px;
+}
+
+@media screen and (max-width: 998px) {
+    .card__text-container {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card__text-container {
+        padding: 15px 16px 20px;
+    }
+}

@@ -1,0 +1,13 @@
+.header__text-logo {
+    font-family: Roboto Slab, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 500px) {
+    .header__text-logo {
+        font-size: 16px;
+    }
+}

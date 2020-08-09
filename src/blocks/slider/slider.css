@@ -1,0 +1,11 @@
+@import url(./__card-container/slider__card-container.css);
+@import url(./__dots/slider__dots.css);
+@import url(./__dot/slider__dot.css);
+@import url(./__dot/_active/slider__dot_active.css);
+@import url(./__control/slider__control.css);
+@import url(./__control/_direction/slider__control_direction_left.css);
+@import url(./__control/_direction/slider__control_direction_right.css);
+
+.slider {
+    position: relative;
+}

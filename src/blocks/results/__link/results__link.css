@@ -1,0 +1,17 @@
+.results__link {
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #1A1B22;
+}
+
+.results__link::after {
+    content: url(../../../images/arrow.svg);
+    margin-left: 10px;
+    height: 22px;
+}

@@ -1,0 +1,6 @@
+.slider__card-container {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: -430px;
+}

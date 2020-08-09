@@ -1,0 +1,14 @@
+.footer__navigation {
+    display: flex;
+    justify-content: space-around;
+    max-width: 406px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__navigation {
+        order: -1;
+        flex-direction: column;
+        /*margin-right: 34px;*/
+        margin-right: calc(100% - 220px);
+    }
+}
