@@ -1,18 +1,15 @@
-.card__image {
+.card__image-container {
     height: 272px;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 @media screen and (max-width: 900px) {
-    .card__image {
+    .card__image-container {
         height: 150px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .card__image {
+    .card__image-container {
         height: 196px;
     }
 }
