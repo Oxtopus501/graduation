@@ -40,7 +40,6 @@ function manageRequest(searchText) {
         formError.classList.remove('search__form-error_hidden');
         return;
     }
-    console.log(dateString);
     sendRequest(searchText, dateString);
     
 }
@@ -75,7 +74,6 @@ function sendRequest(searchText, firstDate) {
 preloaderEl.classList.remove('in-progress_hidden');
 newsApi.getNews(searchText, firstDate)
     .then((data) => {
-        console.log(data);
         localStorage.setItem('request', searchText);
         if (data.totalResults == 0) {
             notFoundEl.classList.remove('not-found_hidden');
