@@ -2,9 +2,10 @@
     width: 64px;
     height: 64px;
     background: url(../../../images/commit-author-avatar-1.jpg);
+    background-size: cover;
     border-radius: 1000px;
     margin-right: 16px;
-    background-size: cover;
+    
 }
 
 @media screen and (max-width: 1279px) {

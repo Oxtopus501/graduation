@@ -5,7 +5,16 @@
 @import url(./__control/slider__control.css);
 @import url(./__control/_direction/slider__control_direction_left.css);
 @import url(./__control/_direction/slider__control_direction_right.css);
+@import url(./__pagination/slider__pagination.css);
 
 .slider {
     position: relative;
+    height: 388px;
 }
+
+@media screen and (max-width: 1279px) {
+    .slider {
+        height: 320px;
+    }
+}
+

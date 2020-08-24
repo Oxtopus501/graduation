@@ -4,6 +4,8 @@
 @import url(./__link/results__link.css);
 @import url(./__cards/results__cards.css);
 @import url(./__more-button/results__more-button.css);
+@import url(./__more-button/_hidden/results__more-button_hidden.css);
+@import url(./_hidden/results_hidden.css);
 
 .results {
     padding: 80px 0;

@@ -26,71 +26,76 @@
           <h1 class="search__title">Что в мире творится?</h1>
           <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
           <div class="search__form-container">
-            <form class="search__form">
-              <input type="text" placeholder="Введите тему новости" class="search__input">
-              <input type="submit" value="Искать" class="search__button">
+            <form class="search__form" name="search">
+              <input type="text" name="text" placeholder="Введите тему новости" class="search__input">
+              <div class="search__form-error search__form-error_hidden">Не введён поисковый запрос</div>
+              <input type="submit" name="submit" value="Искать" class="search__button">
             </form>
           </div>
         </div> 
       </section>
-      <section class="in-progress">
+      
+      <section class="in-progress in-progress_hidden">
         <div class="in-progress__preloader"></div>
         <p class="in-progress__text">Идет поиск новостей...</p>
       </section>
-      <section class="not-found">
+
+      <section class="not-found not-found_hidden">
         <div class="not-found__icon"></div>
         <h2 class="not-found__title">Ничего не найдено</h2>
         <p class="not-found__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
       </section>
-      <section class="results">
+
+      <section class="results results_hidden">
         <div class="results__container limited-section">
           <div class="results__text-content">
             <h2 class="title results__title">Результаты поиска</h2>
             <a class="link results__link" href="./analytics.html">Посмотреть аналитику</a>
           </div>
+        </div>   
           <div class="results__cards">
-            <div class="card">
-              <div class="card__image"></div>
+            <!--<div class="card">
+              <img class="card__image" src="<%=require('./images/card-background.jpg')%>">
               <div class="card__text-container">
                 <div class="card__date">2 августа, 2019</div>
                 <div class="card__article">
                   <div class="card__title">Лесные огоньки: история одной фотографии есные огоньки: история одной фотографии</div>
-                  <div class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
+                  <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
                     из местных чудес природы.Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
-                    из местных чудес природы.</div>
+                    из местных чудес природы.</p>
+                </div>  
+                <div class="card__source">Медуза</div>   
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__image" src="<%=require('./images/card-background.jpg')%>">
+              <div class="card__text-container">
+                <div class="card__date">2 августа, 2019</div>
+                <div class="card__article">
+                  <div class="card__title">Лесные огоньки: история одной фотографии есные огоньки: история одной фотографии</div>
+                  <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
+                    из местных чудес природы.Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
+                    из местных чудес природы.</p>
                   </div>  
                 <div class="card__source">Медуза</div>   
               </div>
             </div>
             <div class="card">
-              <div class="card__image"></div>
+              <img class="card__image" src="<%=require('./images/card-background.jpg')%>">
               <div class="card__text-container">
                 <div class="card__date">2 августа, 2019</div>
                 <div class="card__article">
                   <div class="card__title">Лесные огоньки: история одной фотографии есные огоньки: история одной фотографии</div>
-                  <div class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
+                  <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
                     из местных чудес природы.Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
-                    из местных чудес природы.</div>
+                    из местных чудес природы.</p>
                   </div>  
                 <div class="card__source">Медуза</div>   
               </div>
-            </div>
-            <div class="card">
-              <div class="card__image"></div>
-              <div class="card__text-container">
-                <div class="card__date">2 августа, 2019</div>
-                <div class="card__article">
-                  <div class="card__title">Лесные огоньки: история одной фотографии есные огоньки: история одной фотографии</div>
-                  <div class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
-                    из местных чудес природы.Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
-                    из местных чудес природы.</div>
-                  </div>  
-                <div class="card__source">Медуза</div>   
-              </div>
-            </div>
+            </div> -->
           </div>
           <button class="results__more-button">Показать ещё</button>  
-        </div>  
+         
       </section>
       <section class="author limited-section">
         <img class="author__avatar" src="<%=require('./images/avatar.jpg')%>" alt="Фото автора">
@@ -101,6 +106,7 @@
           <p class="author__text">Если хотите, оставьте свои контакты: email и телефон. Так заказчики смогут с вами связаться.</p>
         </div>
       </section>
+
       <footer class="footer limited-section">
         <p class="footer__copyright">&#169; 2020  Supersite</p>
         <nav class="footer__navigation">
