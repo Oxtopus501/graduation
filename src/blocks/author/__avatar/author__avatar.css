@@ -1,5 +1,8 @@
 .author__avatar {
     margin-right: 56px;
+    height: 464px;
+    width: 464px;
+    border-radius: 100%;
 }
 
 @media screen and (max-width: 900px) {
